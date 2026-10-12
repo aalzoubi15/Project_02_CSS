@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <nav class="navbar">
+        <a href="#top">Home</a>
+        <a href="#card">Card</a>
+        <a href="#information">Information</a>
+    </nav>
+
+    <main class="page-content">
+
+        <h1>CSS Positioning</h1>
+
+        <p>
+            This page demonstrates how CSS positioning controls the placement
+            of elements on a webpage.
+        </p>
+
+        <section class="positioned-card" id="card">
+            <span class="badge">New</span>
+
+            <h2>Featured Card</h2>
+
+            <p>
+                This card uses relative positioning. The notification badge
+                is positioned inside the card's top-right corner.
+            </p>
+        </section>
+
+        <section id="information">
+            <h2>More Information</h2>
+
+            <p>
+                A fixed navigation bar stays at the top of the screen
+                when the page scrolls.
+            </p>
+
+            <p>
+                An absolutely positioned element uses its nearest positioned
+                ancestor as its reference.
+            </p>
+
+            <p>
+                A relatively positioned element remains in the normal
+                document flow.
+            </p>
+
+            <p>
+                The back-to-top button stays at the bottom-right of the
+                screen and links back to the top of the page.
+            </p>
+
+            <p>
+                CSS positioning helps place elements where they are needed
+                without relying on HTML tables for layout.
+            </p>
+        </section>
+
+    </main>
+
+    <a class="back-to-top" href="#top">Top ↑</a>
+
+</body>
+</html>

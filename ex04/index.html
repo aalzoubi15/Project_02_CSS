@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The CSS Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>The CSS Box Model</h1>
+
+    <p>
+        Both boxes have a declared width of 260 pixels, padding of 20 pixels,
+        and a border of 5 pixels. The box-sizing property changes how
+        the total width is calculated.
+    </p>
+
+    <section>
+        <h2>Content Box</h2>
+
+        <div class="comparison-box content-box">
+            <p>box-sizing: content-box</p>
+            <p>Padding and border add to the declared width.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Border Box</h2>
+
+        <div class="comparison-box border-box">
+            <p>box-sizing: border-box</p>
+            <p>Padding and border fit inside the declared width.</p>
+        </div>
+    </section>
+
+</body>
+</html>

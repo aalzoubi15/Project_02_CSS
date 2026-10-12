@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.comparison-box {
+    width: 260px;
+    padding: 20px;
+    border: 5px solid black;
+    margin-bottom: 25px;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
